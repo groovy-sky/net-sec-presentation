@@ -1,4 +1,0 @@
-allowLocalFiles: true
-options:
- katexFontPath: fonts/JetBrainsMono-Regular.woff2
- preview: true
