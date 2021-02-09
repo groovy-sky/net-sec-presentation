@@ -12,7 +12,7 @@ style: |
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: 100% 100%;
-    font: 15px presentationFont, sans-serif;
+    font: 15px presentationFont;
   }
   h1 {
     font: presentationFont;
