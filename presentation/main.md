@@ -1,19 +1,34 @@
 ---
 marp: true
+paginate: true
+style: |
+  @font-face {
+    font-family: presentationFont;
+    src: url(font/JetBrainsMono-Italic.woff);
+    }
+  section {
+    padding: 25px;
+    background-image: url("img/bg.svg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    font: 15px presentationFont, sans-serif;
+  }
+  h1 {
+    font: presentationFont;
+    font-size: 60px;
+    color: #ef9d10f;
+    }
 ---
 
-![bg cover](img/logo.svg)
-
-# Presentation
-
-![w:300](img/logo.png)
-Start writing!
+<!-- paginate: false -->
+# Infrastracture as Code
+#ef9d10f, #3b4d61 and #6b7b8c
 
 ---
 
 <!-- header: 'Some header text' -->
-<!-- paginate: true -->
-<!-- _backgroundColor: aqua -->
+
 ## Second slide
 * One
 * Two
