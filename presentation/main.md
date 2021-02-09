@@ -1,38 +1,85 @@
 ---
 marp: true
-paginate: true
 style: |
-  @font-face {
-    font-family: presentationFont;
-    src: url(font/JetBrainsMono-Italic.woff);
-    }
   section {
     padding: 25px;
     background-image: url("img/bg.svg");
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: 100% 100%;
-    font: 15px presentationFont;
+    font-family: 'JetBrains Mono';
+    font-size: 22px;
+    color: #6b7b8c;
+  }
+  section.right{
+    text-align: right;
+  }
+  header {
+    font-size: 20px;
+  }
+  a {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'JetBrains Mono';
+    color: #6b7b8c;
   }
   h1 {
-    font: presentationFont;
-    font-size: 60px;
-    color: #ef9d10f;
+    font-size-adjust: 1.2;
+    text-align: center;
+    color: #3b4d61;
+    }
+  h2 {
+    font-size-adjust: 1;
+    position: absolute;
+    top: 70px;
+    color: #ef9d10;
     }
 ---
 
-<!-- paginate: false -->
-# Infrastracture as Code
-#ef9d10f, #3b4d61 and #6b7b8c
+# Infrastructure as Code
+<!-- _class: right -->
+Presented by Jurijs Fadejevs
+
+---
+<!-- paginate: true -->
+<!-- header: 'Infrastructure as Code' -->
+<!-- footer: 'https://github.com/groovy-sky' -->
+
+## Introduction
 
 ---
 
-<!-- header: 'Some header text' -->
+## Azure Resource Manager
 
-## Second slide
-* One
-* Two
 
 ---
 
+## Ansible
 
+
+---
+
+## Docker
+
+
+---
+
+## Azure DevOps
+
+
+---
+
+## Power Automate
+
+
+---
+
+## Result
+
+
+---
+
+## Summary
+
+
+---
