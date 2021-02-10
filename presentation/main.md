@@ -5,11 +5,12 @@ style: |
     padding: 25px;
     background-image: url("img/bg.svg");
     background-repeat: no-repeat;
-    background-origin: content-box;
-    background-size: 100% 100%;
     font-family: 'JetBrains Mono';
     font-size: 22px;
     color: #6b7b8c;
+  }
+  img{
+    background: transparent;
   }
   section.right{
     text-align: right;
@@ -47,28 +48,46 @@ Presented by Jurijs Fadejevs
 
 ## Introduction
 
+# Why? What? How?
+
 ---
 
+## Introduction
+
+![](img/struct.svg)
+
+---
+
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-00#introduction' -->
 ## Azure Resource Manager
 
+![](img/arm_temp.svg)
 
 ---
 
 ## Ansible
 
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
+![](img/ansible_parts.svg)
 
 ---
 
 ## Docker
 
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
+![](img/docker_parts.svg)
 
 ---
 
 ## Azure DevOps
 
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-03#introduction' -->
+![](img/devops_parts.svg)
+
 
 ---
 
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-04#introduction' -->
 ## Power Automate
 
 
