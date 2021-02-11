@@ -17,4 +17,4 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Login to CLI
-      run: az login --service-principal -u ${{ Azure.spn_id }} -p ${{ Azure.spn_key }} --tenant ${{ Azure.spn_tenant }}
+      run: az login --service-principal -u ${{ secrets.spn_id }} -p ${{ secrets.spn_key }} --tenant ${{ secrets.spn_tenant }}
