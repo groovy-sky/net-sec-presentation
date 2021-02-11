@@ -23,4 +23,4 @@ jobs:
       run: az config set extension.use_dynamic_install=yes_without_prompt
 
     - name: Upload files
-      run: az storage blob directory upload -c $web --account-name greet -s ${GITHUB_WORKSPACE}/presentation -d directory --recursive
+      run: az storage blob directory upload -c "$web" --account-name greet -s ${GITHUB_WORKSPACE}/presentation -d directory --recursive
