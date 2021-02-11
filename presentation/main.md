@@ -54,35 +54,35 @@ Presented by Jurijs Fadejevs
 
 ## Introduction
 
-![](img/struct.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/struct.svg)
 
 ---
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-00#introduction' -->
 ## Azure Resource Manager
 
-![](img/arm_temp.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/arm_temp.svg)
 
 ---
 
 ## Ansible
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
-![](img/ansible_parts.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ansible_parts.svg)
 
 ---
 
 ## Docker
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
-![](img/docker_parts.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/docker_parts.svg)
 
 ---
 
 ## Azure DevOps
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-03#introduction' -->
-![](img/devops_parts.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/devops_parts.svg)
 
 
 ---
