@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Copy site content
-      run: apt install azcopy -y
+      run: sudo apt install azcopy -y
       env:
         AZCOPY_AUTO_LOGIN_TYPE: ${{ secrets.AZCOPY_AUTO_LOGIN_TYPE }}
         AZCOPY_SPA_APPLICATION_ID: ${{ secrets.AZCOPY_SPA_APPLICATION_ID }}
