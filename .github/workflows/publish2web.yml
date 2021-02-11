@@ -20,7 +20,7 @@ jobs:
       run: az login --service-principal -u ${{ secrets.SPN_ID }} -p ${{ secrets.SPN_KEY }} --tenant ${{ secrets.SPN_TENANT }} -o none
 
     - name: Configure CLI
-      run: az config set extension.use_dynamic_install=yes_without_prompt
+      run: az extension add --name storage-preview
 
     - name: Upload files
       run: az storage blob directory upload -c "$web" --account-name greet -s ${GITHUB_WORKSPACE}/presentation -d directory --recursive
