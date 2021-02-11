@@ -1,0 +1,20 @@
+name: Publish repository content to website
+
+on:
+  push:
+    paths:
+    - '.github/workflows/**'
+    - 'presentation/**'
+    - 'azure/**'
+    - 'docker/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Copy site content
+      run: azcopy list -h
