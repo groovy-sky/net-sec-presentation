@@ -3,7 +3,7 @@ marp: true
 style: |
   section {
     padding: 25px;
-    background-image: url("img/bg.svg");
+    background-image: url("https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/bg.svg");
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono';
     font-size: 22px;
