@@ -17,4 +17,8 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Copy site content
-      run: which azcopy
+      run: azcopy list https://greet.blob.core.windows.net/
+      env:
+        AZCOPY_AUTO_LOGIN_TYPE: ${{ secrets.AZCOPY_AUTO_LOGIN_TYPE }}
+        AZCOPY_SPA_APPLICATION_ID: ${{ secrets.AZCOPY_SPA_APPLICATION_ID }}
+        AZCOPY_SPA_CLIENT_SECRET: ${{ secrets.AZCOPY_SPA_CLIENT_SECRET }}
