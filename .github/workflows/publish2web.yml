@@ -18,3 +18,6 @@ jobs:
 
     - name: Login to CLI
       run: az login --service-principal -u ${{ secrets.SPN_ID }} -p ${{ secrets.SPN_KEY }} --tenant ${{ secrets.SPN_TENANT }} -o none
+
+    - name: Upload files
+      run: az storage blob directory upload -c $web --account-name greet -s ${GITHUB_WORKSPACE}/presentation -d directory --recursive
