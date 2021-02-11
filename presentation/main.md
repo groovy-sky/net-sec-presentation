@@ -3,7 +3,7 @@ marp: true
 style: |
   section {
     padding: 25px;
-    background-image: url("img/bg.png");
+    background-image: url("img/bg.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono';
@@ -11,7 +11,7 @@ style: |
     color: #6b7b8c;
   }
   img{
-    display: block;
+    display: inline-block;
     align-content: center;
     background: transparent;
   }
@@ -55,7 +55,7 @@ Presented by Jurijs Fadejevs
 
 ---
 
-## Introduction
+## Roadmap
 
 ![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/struct.svg)
 
@@ -75,10 +75,14 @@ Presented by Jurijs Fadejevs
 
 ---
 
+https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
+
+---
+
 ## Docker
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/docker_parts.svg)
+![](img/docker_parts.svg)
 
 ---
 

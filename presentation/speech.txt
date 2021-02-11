@@ -1,0 +1,67 @@
+= ARM =
+Azure Resource Manager is the replacement for Azure Service Manager (aka Azure Classic), which originally provided only the classic deployment model. In classic model, each resource existed independently; there was no way to group related resources together.
+
+Azure Resource Manager is a unified application model that provides consistent end user experiences while interacting with the resource providers on the user behalf. These services are referred to as resources in the ARM model. One of the main advantages of Resource Manager templates allow you to create and deploy an entire Azure infrastructure declaratively.
+
+Deploying and configuring resources can be a challenging task. An average application that is running in production has a complex architecture with many configuration settings. For a single deployment it might seem more appealing and time effective to configure all these settings manually instead of investing in automation, but it is inevitable that a shortcut will eventually be inefficient. The declarative approach—also known as the functional approach—is the best fit. In the declarative approach, you specify the desired final state of the infrastructure you want to provision and the IaC software handles the rest—spinning up the virtual machine (VM) or container, installing and configuring the necessary software, resolving system and software interdependencies, and managing versioning. The chief downside of the declarative approach is that it typically requires a skilled administrator to set up and manage, and these administrators often specialize in their preferred solution.
+
+In the imperative approach—also known as the procedural approach—the solution helps you prepare automation scripts that provision your infrastructure one specific step at a time. While this can be more work to manage as you scale, it can be easier for existing administrative staff to understand and can leverage configuration scripts you already have in place.
+
+Resource Manager template - A JavaScript Object Notation (JSON) file that defines one or more resources to deploy to a resource group or subscription. The template can be used to deploy the resources consistently and repeatedly. declarative syntax - Syntax that lets you state "Here is what I intend to create" without having to write the sequence of programming commands to create it.
+
+ARM template structure: 
+
+Parameters
+
+Parameters should be used for collecting input to customize the deployment. Values such as username and password (secrets) must always be parameterized. Other values, such as public endpoints (accessed by humans) or SKUs (that affect the cost of the workload) should be parameterized, but also allow for defaultValues to simplify deployment and provide suggestions to the user appropriate for a given application or workload.
+Variables
+
+In the variables section, you construct values that can be used throughout your template. You don't need to define variables, but they often simplify your template by reducing complex expressions.
+Resources
+
+In the resources section, you define the resources that are deployed or updated. Each resource is defined separately. If there are dependencies between resources, they must be described in the resource definition. For example, if a Virtual Machine depends on a Storage Account, this will be defined in the Virtual Machine resource declaration. Azure Resource Manager analyzes dependencies to ensure resources are created in the correct order, and there is no meaning to the order in which the resources are defined in the template.
+
+Template limitations
+
+Size < 4 MB (after it has been expanded with iterative resource definitions)
+256 parameters
+256 variables
+800 resources (including copy count)
+64 output values
+24,576 characters in a template expression
+
+= Ansible =
+
+Ansible is an open-source product that automates cloud provisioning, configuration management, and application deployments. Using Ansible you can provision virtual machines, containers, and network and complete cloud infrastructures. Also, Ansible allows you to automate the deployment and configuration of resources in your environment.
+
+Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.
+
+Designed for multi-tier deployments since day one, Ansible models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time.
+
+It uses no agents and no additional custom security infrastructure, so it's easy to deploy - and most importantly, it uses a very simple language (YAML, in the form of Ansible Playbooks) that allow you to describe your automation jobs in a way that approaches plain English.
+
+Ansible is an open-source tool, which was designed to help organizations automate provisioning, configuration management, and application deployment. It does not use agents or a custom security infrastructure that must be present on a target machine to work properly. Instead, Ansible connects to compute hosts using SSH/WinRM protocol.
+
+Furthermore, it is divisible into 3 parts:
+
+    Ansible Plays & Playbooks
+    Control node (Ansible Engine and Ansible Modules)
+    Managed Infrastructure
+
+Ansible lets you create ‘playbooks’ (written in the YAML configuration language) to specify the state for your infrastructure and then does the provisioning for you.
+
+Each playbook is composed of one or more ‘plays’ in a list. The function of a play is to map a set of instructions defined against a particular host. Plays, like tasks, run in the order specified in the playbook: top to bottom.
+
+Ansible Engine is made up of the components central to Ansible automation – the task engine, OpenSSH and WinRM transports, and the Ansible language itself.
+
+Written in Python, Ansible engine itself doesn't provide wide functionality. Modules do the actual work in Ansible, they are what gets executed.
+
+There are three types of Ansible modules:
+
+    Core modules – These are modules that are supported by Ansible itself.
+    Extra modules – These are modules that are created by communities or companies but are included in the distribution that may not be supported by Ansible.
+    Deprecated modules – These are identified when a new module is going to replace it or a new module is actually more preferred.
+
+= Docker =
+
+Containerization has become a major trend in software development as an alternative or companion to virtualization. It involves encapsulating or packaging up software code and all its dependencies so that it can run uniformly and consistently on any infrastructure.
