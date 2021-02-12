@@ -129,7 +129,16 @@ https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
 
 ---
 
+## IaC Formula
+
+![](img/formula.svg)
+
+
+---
+
 ## Result
+
+![](img/result.svg)
 
 
 ---
