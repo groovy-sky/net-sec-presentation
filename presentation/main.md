@@ -40,11 +40,19 @@ style: |
     }
 ---
 
+<!-- background-image: url("https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/bg.jpg"); -->
 # Infrastructure as Code
 <!-- _class: right -->
 Presented by Jurijs Fadejevs
 
 ---
+
+## Before we start
+
+![](img/present_link.svg)
+
+---
+
 <!-- paginate: true -->
 <!-- header: 'Infrastructure as Code' -->
 <!-- footer: 'https://github.com/groovy-sky' -->
