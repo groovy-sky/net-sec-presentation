@@ -51,7 +51,7 @@ Presented by Jurijs Fadejevs
 
 ## Introduction
 
-# Why? What? How?
+![](img/intro.svg)
 
 ---
 
