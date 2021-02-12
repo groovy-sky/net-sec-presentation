@@ -125,6 +125,7 @@ https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-04#introduction' -->
 ## Power Automate
 
+![](img/flow.svg)
 
 ---
 

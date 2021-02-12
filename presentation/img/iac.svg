@@ -97,9 +97,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="732.58465"
-     inkscape:cy="354.52016"
+     inkscape:zoom="0.7"
+     inkscape:cx="836.83659"
+     inkscape:cy="328.2761"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -108,7 +108,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false">
     <sodipodi:guide
@@ -130,7 +130,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,22 +163,22 @@
        x="65.378235"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.52499962px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#3a4d61;fill-opacity:0.94117647;stroke:none;stroke-width:0.26458329;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        xml:space="preserve"
-       transform="translate(267.91455,-64.392841)"><tspan
-         id="tspan1707"
+       transform="translate(262.34776,-64.392854)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.57777786px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#3a4d61;fill-opacity:0.94117647;stroke-width:0.26458329"
          y="199.89458"
          x="65.378235"
-         sodipodi:role="line">Declarative</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1711">Declarative</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.57777786px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#3a4d61;fill-opacity:0.94117647;stroke-width:0.26458329"
          y="228.11681"
          x="65.378235"
          sodipodi:role="line"
-         id="tspan1713">or</tspan><tspan
+         id="tspan889">or/and</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.57777786px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#3a4d61;fill-opacity:0.94117647;stroke-width:0.26458329"
          y="256.33902"
          x="65.378235"
          sodipodi:role="line"
-         id="tspan1711">Imperative</tspan></text>
+         id="tspan891">Imperative</tspan></text>
     <text
        inkscape:export-ydpi="200"
        inkscape:export-xdpi="200"
@@ -194,5 +194,20 @@
          x="65.378235"
          sodipodi:role="line"
          id="tspan1711-7">+</tspan></text>
+    <text
+       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200"
+       inkscape:export-filename="/home/adm1n/Github/azure/images/iac/abstractions.png"
+       id="text875"
+       y="199.89458"
+       x="65.378235"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.52499962px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#3a4d61;fill-opacity:0.94117647;stroke:none;stroke-width:0.26458329;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"
+       transform="translate(282.88164,-20.560639)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.57777786px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#3a4d61;fill-opacity:0.94117647;stroke-width:0.26458329"
+         y="208.74408"
+         x="65.378235"
+         sodipodi:role="line"
+         id="tspan873" /></text>
   </g>
 </svg>
