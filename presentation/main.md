@@ -92,11 +92,14 @@ Presented by Jurijs Fadejevs
 ## Ansible
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ansible_parts.svg)
+![](img/ans_az.svg)
 
 ---
 
-https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
+## Ansible
+
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ansible_parts.svg)
 
 ---
 
@@ -138,6 +141,7 @@ https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
 
 ## Result
 
+
 ![](img/result.svg)
 
 
@@ -145,5 +149,15 @@ https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
 
 ## Summary
 
+
+---
+
+## Related information
+
+<!-- _font-size: 35px; -->
+<!-- _a.font-size: 35px; -->
+
+IaC - [https://github.com/groovy-sky/iaac-demo](https://github.com/groovy-sky/iaac-demo)
+More about Azure - https://groovy-sky.github.io/azure/
 
 ---
