@@ -50,7 +50,7 @@ Presented by Jurijs Fadejevs
 
 ## Before we start
 
-![](img/present_link.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/present_link.svg)
 
 ---
 
@@ -60,13 +60,13 @@ Presented by Jurijs Fadejevs
 
 ## Introduction
 
-![](img/intro.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/intro.svg)
 
 ---
 
 ## What is Infrastructure as Code?
 
-![](img/iac.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/iac.svg)
 
 ---
 
@@ -78,7 +78,7 @@ Presented by Jurijs Fadejevs
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-00#introduction' -->
 ## Azure Resource Manager
-![](img/az_res.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/az_res.svg)
 
 ---
 
@@ -103,14 +103,14 @@ https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
 ## Docker
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
-![](img/virt_types.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/virt_types.svg)
 
 ---
 
 ## Docker
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
-![](img/docker_parts.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/docker_parts.svg)
 
 ---
 
