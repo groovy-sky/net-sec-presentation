@@ -55,9 +55,21 @@ Presented by Jurijs Fadejevs
 
 ---
 
+## What is Infrastructure as Code?
+
+![](img/iac.svg)
+
+---
+
 ## Roadmap
 
 ![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/struct.svg)
+
+---
+
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-00#introduction' -->
+## Azure Resource Manager
+![](img/az_res.svg)
 
 ---
 
@@ -76,6 +88,13 @@ Presented by Jurijs Fadejevs
 ---
 
 https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html#azure
+
+---
+
+## Docker
+
+<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
+![](img/virt_types.svg)
 
 ---
 

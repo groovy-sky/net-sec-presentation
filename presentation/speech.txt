@@ -1,3 +1,7 @@
+= IaC =
+https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac
+https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code
+
 = ARM =
 Azure Resource Manager is the replacement for Azure Service Manager (aka Azure Classic), which originally provided only the classic deployment model. In classic model, each resource existed independently; there was no way to group related resources together.
 
@@ -63,5 +67,7 @@ There are three types of Ansible modules:
     Deprecated modules – These are identified when a new module is going to replace it or a new module is actually more preferred.
 
 = Docker =
+
+https://cloudacademy.com/blog/container-virtualization/
 
 Containerization has become a major trend in software development as an alternative or companion to virtualization. It involves encapsulating or packaging up software code and all its dependencies so that it can run uniformly and consistently on any infrastructure.
