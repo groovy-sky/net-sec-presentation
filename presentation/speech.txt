@@ -1,6 +1,7 @@
 = IaC =
 https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac
 https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code
+https://www.ibm.com/cloud/learn/infrastructure-as-code
 
 = ARM =
 Azure Resource Manager is the replacement for Azure Service Manager (aka Azure Classic), which originally provided only the classic deployment model. In classic model, each resource existed independently; there was no way to group related resources together.

@@ -12,7 +12,6 @@ style: |
   }
   img{
     display: inline-block;
-    align-content: center;
     background: transparent;
   }
   section.right{
@@ -38,6 +37,9 @@ style: |
     top: 70px;
     color: #ef9d10;
     }
+  h3 {
+    font-size-adjust: 1.0;
+    }
 ---
 
 ![bg](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/bg.jpg)
@@ -50,13 +52,13 @@ Presented by Jurijs Fadejevs
 
 ## Before we start
 
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/present_link.svg)
-
----
-
 <!-- paginate: true -->
 <!-- header: 'Infrastructure as Code' -->
 <!-- footer: 'https://github.com/groovy-sky' -->
+
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/present_link.svg)
+
+---
 
 ## Introduction
 
@@ -92,14 +94,14 @@ Presented by Jurijs Fadejevs
 ## Ansible
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
-![](img/ans_az.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ansible_parts.svg)
 
 ---
 
 ## Ansible
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ansible_parts.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ans_az.svg)
 
 ---
 
@@ -126,15 +128,15 @@ Presented by Jurijs Fadejevs
 ---
 
 <!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-04#introduction' -->
-## Power Automate
+## Power Automate (Optional)
 
-![](img/flow.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/flow.svg)
 
 ---
 
 ## IaC Formula
 
-![](img/formula.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/formula.svg)
 
 
 ---
@@ -142,22 +144,48 @@ Presented by Jurijs Fadejevs
 ## Result
 
 
-![](img/result.svg)
+![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/result.svg)
 
 
----
+---  
 
 ## Summary
 
+Pros:
+- Faster time to production
+- Less ‘configuration drift’
+- Reduce 'the human factor'
+- Team collaboration
+
+Cons:
+- Additional complexity
+- Maintenance increase
 
 ---
 
-## Related information
-
-<!-- _font-size: 35px; -->
-<!-- _a.font-size: 35px; -->
-
-IaC - [https://github.com/groovy-sky/iaac-demo](https://github.com/groovy-sky/iaac-demo)
-More about Azure - https://groovy-sky.github.io/azure/
+<!-- header: '' -->
+<!-- footer: '' -->
+<!-- paginate: false -->
+# Thanks for listening
 
 ---
+
+<style scoped>
+section {
+  font-size: 30px;
+}
+a {
+  font-size: 30px;
+}
+</style>
+
+## Related links
+
+**If you want to try yourself:**
+[https://github.com/groovy-sky/iaac-demo#infrastructure-as-code](https://github.com/groovy-sky/iaac-demo#infrastructure-as-code)
+
+
+**More about Azure:**
+[https://groovy-sky.github.io/azure/](https://groovy-sky.github.io/azure/)
+
+![](img/watch_and_star.svg)
