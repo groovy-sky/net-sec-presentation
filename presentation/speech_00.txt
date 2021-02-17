@@ -1,0 +1,58 @@
+Infrastructure as Code uses a high-level descriptive coding language to automate the provisioning of IT infrastructure. Which means that it generates the same environment every time it is applied. Without Infrastructure as Code, teams must maintain the settings of individual deployment environments manually. Over time, each environment becomes a snowflake, that is, a unique configuration that cannot be reproduced automatically.  With snowflakes, administration and maintenance of infrastructure involves manual processes which were hard to track.
+
+Deploying and configuring resources can be a challenging task. An average application that is running in production has a complex architecture with many configuration settings. For a single deployment it might seem more appealing and time effective to configure all these settings manually instead of investing in automation, but it is inevitable that a shortcut will eventually be inefficient. In general, we can distinguish two different programming types.
+
+Imperative syntax describes the how. It requires you to think about how to configure all the individual components of the environment.
+Declarative syntax describes the what. It requires you to define the desired state of your environment and let a system determine the most efficient way to reach that state. 
+
+Azure Resource Manager is the replacement for Azure Service Manager, which originally provided only the classic deployment model. In classic model, each resource existed independently and there was no way to group related resources together.
+
+Azure Resource Manager provides powerful Infrastructure as Code capabilities. Any type of resource that is available on the Microsoft cloud platform can be deployed and configured with Azure Resource Manager. With a single template, you can deploy and configure multiple resources as a single deployment operation. Templates allow you to deploy your complete application to an ideal operational end state. Azure Resource Manager accepts JavaScript Object Notation templates that comply with a JSON schema. JSON is an industry standard, human readable language. The template can be used to deploy the resources consistently and repeatedly. It's structure contains following pars:
+
+schema - Location of the JSON schema file that describes the version of the template language
+contentVersion - Version of the template. You can provide any value for this element. When deploying resources using the template, this value can be used to make sure that the right template is being used.
+parameters - Values that are provided when deployment is executed to customize resource deployment.
+variables - Values that are used as JSON fragments in the template to simplify template language expressions.
+resources - Resource types that are deployed or updated in a resource group.
+outputs - Values that are returned after deployment.
+
+Template has limitations on its size, amount of parameters, variables and resources. 
+
+Orchestration is about bringing together disparate things into a coherent whole. There are many different kinds of orchestrations solutions such as Chef, Terraform, Puppet, Ansible and many others. All of the referenced tools were developed with a specific purpose or intent in mind. Choosing an appropriate tool requires a way of understanding an application field. 
+
+Ansible is an open-source tool, which was designed to help organizations automate provisioning, configuration management, and application deployment. It does not use agents or a custom security infrastructure that must be present on a target machine to work properly. Instead, Ansible connects to compute hosts using SSH orWinRM protocol.
+
+Furthermore, it is divisible into 3 parts:
+
+Ansible Plays and Playbooks
+Control node (Ansible Engine and Ansible Modules)
+Managed Infrastructure
+
+Ansible lets you create playbooks (written in the YAML configuration language) to specify the state for your infrastructure and then does the provisioning for you.
+
+Each playbook is composed of one or more plays in a list. The function of a play is to map a set of instructions defined against a particular host. Plays, like tasks, run in the order specified in the playbook: top to bottom.
+
+Ansible Engine is made up of the components central to Ansible automation – the task engine, OpenSSH and WinRM transports, and the Ansible language itself.
+
+Written in Python, Ansible engine itself doesn't provide wide functionality. Modules do the actual work in Ansible, they are what gets executed. For interacting with Azure services, Ansible includes a suite of Ansible cloud modules.
+
+
+Containerization has become a major trend in software development as an alternative or companion to virtualization. It involves encapsulating or packaging up software code and all its dependencies so that it can run uniformly and consistently on any infrastructure. Rather than virtualizing the hardware (which requires full virtualized operating system images for each guest), containers virtualize the OS itself, sharing the host OS kernel and its resources with both the host and other containers.
+
+Docker container technology was launched in 2013 as an open source Docker Engine. Containers encapsulate an application as a single executable package of software that bundles application code together with all of the related configuration files, libraries, and dependencies required for it to run.
+
+Containerized applications are “isolated” in that they do not bundle in a copy of the operating system. Instead, an open source Docker engine is installed on the host’s operating system and becomes the conduit for containers to share an operating system with other containers on the same computing system.
+
+Docker provides the ability to package and run an application in a loosely isolated environment called a container. 
+
+When you use Docker, you are creating and using images and containers. 
+
+Image is a read-only template with instructions for creating a Docker container. You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it.
+
+Container is a runnable instance of an image. A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
+
+Azure DevOps is Microsoft product which helps developers store and manage their code, as well as track and control changes to their code. Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It supports continuous integration and continuous delivery to constantly and consistently test and build your code and ship it to any target. You accomplish this by defining a pipeline. You can define pipelines using the YAML syntax or through the user interface (Classic). Certain pipeline features are only available when using YAML or when defining build or release pipelines with the Classic interface.
+
+Microsoft PowerApps is a tool that can integrate different kind applications and services so they interact with each other seamlessly. PowerApps provides a nice drag-and-drop user interface to allow you to add different controls to construct an app.
+
+Azure Logic App is another integration platform. Power Automate and Azure Logic Apps are both designer-first integration services that can create workflows. Both services integrate with various SaaS and enterprise applications. Main difference between these two products is that Power Apps is a no-code/low-code platform for building simple solutions, whereas Logic Apps allows to work with logic app definitions in JSON using Visual Studio and Visual Studio Code. Logic Apps are part of Azure and, as in the first chapter Azure resources was already mentioned, let's take a look on Power Automate.
