@@ -188,4 +188,7 @@ a {
 **More about Azure:**
 [https://groovy-sky.github.io/azure/](https://groovy-sky.github.io/azure/)
 
+**Leave a feedback:**
+[https://github.com/groovy-sky/azure/discussions/4](https://github.com/groovy-sky/azure/discussions/4)
+
 ![](img/watch_and_star.svg)
