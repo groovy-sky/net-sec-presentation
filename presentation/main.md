@@ -3,7 +3,7 @@ marp: true
 style: |
   section {
     padding: 25px;
-    background-image: url("img/bg.jpg");
+    background-image: url("img/bg.svg");
     background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono';
@@ -27,7 +27,7 @@ style: |
     color: #6b7b8c;
   }
   h1 {
-    font-size-adjust: 1.2;
+    font-size-adjust: 1;
     text-align: center;
     color: #3b4d61;
     }
@@ -35,38 +35,30 @@ style: |
     font-size-adjust: 1;
     position: absolute;
     top: 70px;
-    color: #ef9d10;
+    color: #2d4c6dff;
     }
   h3 {
     font-size-adjust: 1.0;
     }
 ---
 
-![bg](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/bg.jpg)
-
-# Infrastructure as Code
+# Intro to Azure Network Security
 <!-- _class: right -->
 Presented by Jurijs Fadejevs
 
 ---
 
-## Before we start
+## Introduction
 
 <!-- paginate: true -->
-<!-- header: 'Infrastructure as Code' -->
+<!-- header: 'Intro to Azure Network Security' -->
 <!-- footer: 'https://github.com/groovy-sky' -->
-
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/present_link.svg)
-
----
-
-## Introduction
 
 ![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/intro.svg)
 
 ---
 
-## What is Infrastructure as Code?
+## What is Intro to Azure Network Security?
 
 ![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/iac.svg)
 
@@ -150,16 +142,8 @@ Presented by Jurijs Fadejevs
 ---  
 
 ## Summary
+![](/img/summary.png)
 
-Pros:
-- Faster time to production
-- Less ‘configuration drift’
-- Reduce 'the human factor'
-- Team collaboration
-
-Cons:
-- Additional complexity
-- Maintenance increase
 
 ---
 
@@ -181,14 +165,11 @@ a {
 
 ## Related links
 
-**If you want to try yourself:**
-[https://github.com/groovy-sky/iaac-demo#infrastructure-as-code](https://github.com/groovy-sky/iaac-demo#infrastructure-as-code)
+**Running self-hosted DNS forwarder using CoreDNS:**
+[https://github.com/groovy-sky/azure/tree/master/docker-coredns-00](https://github.com/groovy-sky/azure/tree/master/docker-coredns-00)
 
 
 **More about Azure:**
 [https://groovy-sky.github.io/azure/](https://groovy-sky.github.io/azure/)
-
-**Leave a feedback:**
-[https://github.com/groovy-sky/azure/discussions/4](https://github.com/groovy-sky/azure/discussions/4)
 
 ![](img/watch_and_star.svg)
