@@ -58,9 +58,10 @@ Presented by Jurijs Fadejevs
 
 ---
 
-## What is Intro to Azure Network Security?
+## What is Azure Virtual Network?
 
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/iac.svg)
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+
 
 ---
 
@@ -70,79 +71,8 @@ Presented by Jurijs Fadejevs
 
 ---
 
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-00#introduction' -->
-## Azure Resource Manager
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/az_res.svg)
-
----
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-00#introduction' -->
-## Azure Resource Manager
-
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/arm_temp.svg)
-
----
-
-## Ansible
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ansible_parts.svg)
-
----
-
-## Ansible
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-01#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/ans_az.svg)
-
----
-
-## Docker
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/virt_types.svg)
-
----
-
-## Docker
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-02#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/docker_parts.svg)
-
----
-
-## Azure DevOps
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-03#introduction' -->
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/devops_parts.svg)
-
-
----
-
-<!-- _footer: 'https://github.com/groovy-sky/azure/tree/master/iac-04#introduction' -->
-## Power Automate (Optional)
-
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/flow.svg)
-
----
-
-## IaC Formula
-
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/formula.svg)
-
-
----
-
-## Result
-
-
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/result.svg)
-
-
----  
-
 ## Summary
-![](/img/summary.png)
+![](img/summary.svg)
 
 
 ---
