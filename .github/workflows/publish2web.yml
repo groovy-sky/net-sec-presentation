@@ -4,9 +4,7 @@ on:
   push:
     paths:
     - '.github/workflows/**'
-    - 'presentation/**'
-    - 'azure/**'
-    - 'docker/**'
+    - '**'
 
 jobs:
   build:
