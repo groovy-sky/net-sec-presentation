@@ -72,7 +72,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
 ---
 
 ## Summary
-![](img/summary.svg)
+![](summary.svg)
 
 
 ---
