@@ -21,4 +21,4 @@ jobs:
       run: az extension add --name storage-preview
 
     - name: Upload files
-      run: az storage blob upload-batch -d '$web' --account-name greet -s "${GITHUB_WORKSPACE}" --recursive
+      run: az storage blob upload-batch -d '$web' --account-name greet -s "${GITHUB_WORKSPACE}"
