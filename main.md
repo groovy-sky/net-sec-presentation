@@ -3,7 +3,7 @@ marp: true
 style: |
   section {
     padding: 25px;
-    background-image: url("presentation/img/bg.svg");
+    background-image: url("img/bg.svg");
     background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono';
