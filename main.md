@@ -54,15 +54,13 @@ Presented by Jurijs Fadejevs
 <!-- header: 'Intro to Azure Network Security' -->
 <!-- footer: 'https://github.com/groovy-sky' -->
 
-![](presentation/img/intro.svg)
+![](img/intro.svg)
 
 ---
 
 ## On-Prem access
 
-
 ![](img/vm_on_prem_access.svg)
-
 
 ---
 
@@ -73,7 +71,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
 ---
 
 ## Summary
-![](presentation/img/summary.svg)
+![](img/summary.svg)
 
 
 ---
