@@ -60,7 +60,9 @@ Presented by Jurijs Fadejevs
 
 ## On-Prem access
 
-![](presentation/img/vm_on_prem_access.svg)
+
+![](img/vm_on_prem_access.svg)
+
 
 ---
 
