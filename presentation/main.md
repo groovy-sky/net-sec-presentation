@@ -3,7 +3,7 @@ marp: true
 style: |
   section {
     padding: 25px;
-    background-image: url("img/bg.svg");
+    background-image: url("presentation/img/bg.svg");
     background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono';
@@ -54,20 +54,19 @@ Presented by Jurijs Fadejevs
 <!-- header: 'Intro to Azure Network Security' -->
 <!-- footer: 'https://github.com/groovy-sky' -->
 
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/intro.svg)
+![](presentation/img/intro.svg)
+
+---
+
+## On-Prem access
+
+![](presentation/img/vm_on_prem_access.svg)
 
 ---
 
 ## What is Azure Virtual Network?
 
 https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
-
-
----
-
-## Roadmap
-
-![](https://raw.githubusercontent.com/groovy-sky/iac-presentation/main/presentation/img/struct.svg)
 
 ---
 
@@ -102,4 +101,4 @@ a {
 **More about Azure:**
 [https://groovy-sky.github.io/azure/](https://groovy-sky.github.io/azure/)
 
-![](img/watch_and_star.svg)
+![](presentation/img/watch_and_star.svg)
