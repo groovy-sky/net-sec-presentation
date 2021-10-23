@@ -58,15 +58,49 @@ Presented by Jurijs Fadejevs
 
 ---
 
-## On-Prem access
+## Roadmap
 
-![](img/vm_on_prem_access.svg)
+![](img/vnet_param.svg)
 
 ---
 
-## What is Azure Virtual Network?
+## VNet: Definition
 
-https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+![](img/vnet_definition.svg)
+
+
+---
+
+## VNet: Address space & Subnets
+
+
+
+---
+
+
+## VNet: NSG
+
+---
+
+
+## VNet: Peerings
+![](img/vnet_peering.svg)
+
+---
+
+
+## VNet: Service endpoints
+
+---
+
+
+## VNet: Private endpoints
+
+---
+
+## On-Prem access
+
+![](img/vm_on_prem_access.svg)
 
 ---
 
@@ -101,4 +135,4 @@ a {
 **More about Azure:**
 [https://groovy-sky.github.io/azure/](https://groovy-sky.github.io/azure/)
 
-![](presentation/img/watch_and_star.svg)
+![](img/watch_and_star.svg)

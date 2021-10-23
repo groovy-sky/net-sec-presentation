@@ -1,1 +1,7 @@
-This repository is used to build https://greet.z6.web.core.windows.net/presentation
+
+
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+
+https://docs.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices
+
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq
