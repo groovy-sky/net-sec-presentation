@@ -73,6 +73,7 @@ Presented by Jurijs Fadejevs
 
 ## VNet: Address space & Subnets
 
+![](img/addr_def.svg)
 
 
 ---
