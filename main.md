@@ -96,6 +96,11 @@ Presented by Jurijs Fadejevs
 
 ![](img/vm_bastion_access.svg)
 
+---
+
+## VM's public access
+
+![](img/vm_public_acc.svg)
 
 ---
 
@@ -104,29 +109,38 @@ Presented by Jurijs Fadejevs
 
 ---
 
-## VNet: On-Prem access
+## VM's private access
 
 ![](img/vm_on_prem_access.svg)
 
 ---
 
-## VNet: Service endpoints
+## VNet: Service Endpoints
 
 ![](img/service_endpoint.svg)
 
+---
+
+## VNet: Private Endpoints 
+
+![](img/private_endpoint.svg)
 
 ---
 
+## Private Endpoints access from Azure VM
 
-## VNet: Private endpoints
+![](img/priv_endp_struct.svg)
 
 ---
 
+## Private Endpoints access from On-Prem
 
+![](img/priv_endp_conn.svg)
+
+---
 
 ## Summary
 ![](img/summary.svg)
-
 
 ---
 
