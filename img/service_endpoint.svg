@@ -7,16 +7,15 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="11in"
+   width="12in"
    height="8.5in"
-   viewBox="0 0 279.4 215.9"
+   viewBox="0 0 304.8 215.9"
    version="1.1"
    id="svg1879"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="addr_def.svg">
+   sodipodi:docname="service_endpoint.svg">
   <defs
      id="defs1873">
     <linearGradient
@@ -285,33 +284,54 @@
          offset="1" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#f020fb7e-2243-4501-8153-5d69bd3c34f7"
-       id="linearGradient3033"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="rotate(-0.08,-285.46385,-1454.0802)"
-       x1="9.8800001"
-       y1="8.5900002"
-       x2="11.52"
-       y2="10.23" />
+       y2="20.450001"
+       x2="9"
+       y1="6.8800001"
+       x1="9"
+       id="be92901b-ec33-4c65-adf1-9b0eed06d677">
+      <stop
+         id="stop1006"
+         stop-color="#32d4f5"
+         offset="0.22" />
+      <stop
+         id="stop1008"
+         stop-color="#198ab3"
+         offset="1" />
+    </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#b3c2bc94-8c7c-48a2-9719-6ee899a43a97"
-       id="linearGradient3035"
        gradientUnits="userSpaceOnUse"
-       x1="6.1799998"
-       y1="8.5900002"
-       x2="7.8099999"
-       y2="10.23" />
+       y2="11.92"
+       x2="9.6000004"
+       y1="-0.40000001"
+       x1="8.6099997"
+       id="b46fc246-25d8-4398-8779-1042e8cacae7">
+      <stop
+         id="stop1011"
+         stop-color="#32d4f5"
+         offset="0.22" />
+      <stop
+         id="stop1013"
+         stop-color="#198ab3"
+         offset="1" />
+    </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#e900c35d-0958-4d4f-b28f-302eeaaf52f5"
-       id="linearGradient3037"
        gradientUnits="userSpaceOnUse"
-       x1="2.48"
-       y1="8.5900002"
-       x2="4.1100001"
-       y2="10.23" />
+       y2="0.5"
+       x2="9.1899996"
+       y1="17.5"
+       x1="9.1899996"
+       id="b5baf554-e9b4-4fe7-b8e9-cf87296b34cc"
+       gradientTransform="matrix(2.4880729,0,0,2.4880729,213.84161,-78.775474)">
+      <stop
+         id="stop1072"
+         stop-color="#0078d4"
+         offset="0" />
+      <stop
+         id="stop1074"
+         stop-color="#5ea0ef"
+         offset="0.82" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -321,8 +341,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="491.9404"
-     inkscape:cy="365.29405"
+     inkscape:cx="685.15365"
+     inkscape:cy="400.23639"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -331,8 +351,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     units="in"
-     inkscape:snap-global="true" />
+     units="in" />
   <metadata
      id="metadata1876">
     <rdf:RDF>
@@ -341,7 +360,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -351,196 +370,160 @@
      id="layer1"
      transform="translate(129.01799,90.500204)">
     <g
-       id="g3161"
-       transform="matrix(1.2182638,0,0,1.2182638,-111.97366,-45.997486)">
+       id="g1226"
+       transform="translate(5.6126601,5.3453905)">
       <g
-         id="g2941"
-         transform="translate(-1994.9288,-485.85505)">
+         id="g1004"
+         transform="translate(-2035.1663,-528.1995)">
+        <path
+           transform="matrix(0.20037434,-0.05369013,0.05369013,0.20037434,1518.8156,525.0212)"
+           inkscape:transform-center-y="2.965739e-05"
+           inkscape:transform-center-x="-2.2851654e-05"
+           d="m 2028.1498,509.35225 -108.8485,29.16587 -79.6826,-79.68263 29.1658,-108.84851 108.8485,-29.16587 79.6827,79.68264 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="1.3089969"
+           sodipodi:arg1="0.78539816"
+           sodipodi:r2="56.344131"
+           sodipodi:r1="112.68826"
+           sodipodi:cy="429.66962"
+           sodipodi:cx="1948.4672"
+           sodipodi:sides="6"
+           id="path1000"
+           style="fill:#4f9aea;fill-opacity:1;stroke-width:0.26458332"
+           sodipodi:type="star" />
         <path
            sodipodi:type="star"
-           style="fill:#4f9aea;fill-opacity:1;stroke-width:0.26458332"
-           id="path2937"
-           sodipodi:sides="6"
-           sodipodi:cx="1948.4672"
-           sodipodi:cy="429.66962"
-           sodipodi:r1="112.68826"
-           sodipodi:r2="56.344131"
-           sodipodi:arg1="0.78539816"
-           sodipodi:arg2="1.3089969"
-           inkscape:flatsided="true"
-           inkscape:rounded="0"
-           inkscape:randomized="0"
-           d="m 2028.1498,509.35225 -108.8485,29.16587 -79.6826,-79.68263 29.1658,-108.84851 108.8485,-29.16587 79.6827,79.68264 z"
-           inkscape:transform-center-x="-2.2851654e-05"
-           inkscape:transform-center-y="2.965739e-05"
-           transform="matrix(0.20037434,-0.05369013,0.05369013,0.20037434,1518.8156,525.0212)" />
-        <path
-           transform="matrix(0.17373549,-0.04655227,0.04655227,0.17373549,1573.7874,522.55921)"
-           inkscape:transform-center-y="3.4039249e-05"
-           inkscape:transform-center-x="6.4816261e-06"
-           d="m 2028.1498,509.35225 -108.8485,29.16587 -79.6826,-79.68263 29.1658,-108.84851 108.8485,-29.16587 79.6827,79.68264 z"
-           inkscape:randomized="0"
-           inkscape:rounded="0"
-           inkscape:flatsided="true"
-           sodipodi:arg2="1.3089969"
-           sodipodi:arg1="0.78539816"
-           sodipodi:r2="56.344131"
-           sodipodi:r1="112.68826"
-           sodipodi:cy="429.66962"
-           sodipodi:cx="1948.4672"
-           sodipodi:sides="6"
-           id="path2939"
            style="fill:#ffffff;stroke-width:0.26458332"
-           sodipodi:type="star" />
+           id="path1002"
+           sodipodi:sides="6"
+           sodipodi:cx="1948.4672"
+           sodipodi:cy="429.66962"
+           sodipodi:r1="112.68826"
+           sodipodi:r2="56.344131"
+           sodipodi:arg1="0.78539816"
+           sodipodi:arg2="1.3089969"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 2028.1498,509.35225 -108.8485,29.16587 -79.6826,-79.68263 29.1658,-108.84851 108.8485,-29.16587 79.6827,79.68264 z"
+           inkscape:transform-center-x="6.4816261e-06"
+           inkscape:transform-center-y="3.4039249e-05"
+           transform="matrix(0.17373549,-0.04655227,0.04655227,0.17373549,1573.7874,522.55921)" />
       </g>
-      <g
-         id="g2935"
-         transform="matrix(1.693948,0,0,1.693948,-77.86484,5.2653946)">
-        <circle
-           id="circle2921"
-           r="1.16"
-           cy="8.9899998"
-           cx="12.74"
-           style="fill:url(#linearGradient3033)" />
-        <circle
-           id="circle2923"
-           r="1.16"
-           cy="9"
-           cx="9.04"
-           style="fill:url(#linearGradient3035)" />
-        <circle
-           id="circle2925"
-           r="1.16"
-           cy="9"
-           cx="5.3400002"
-           style="fill:url(#linearGradient3037)" />
-        <path
-           id="path2927"
-           transform="rotate(134.92,3.0767566,11.200059)"
-           d="m 2.61,7.28 h 0.94 a 0.3,0.3 0 0 1 0.3,0.3 v 6.94 a 0.6,0.6 0 0 1 -0.6,0.6 H 2.31 V 7.58 a 0.3,0.3 0 0 1 0.3,-0.3 z"
-           inkscape:connector-curvature="0"
-           style="fill:#50e6ff" />
-        <path
-           id="path2929"
-           transform="rotate(44.92,3.0235191,6.7657382)"
-           d="M 2.56,2.91 H 3.5 a 0.3,0.3 0 0 1 0.3,0.3 v 7.43 H 2.86 a 0.6,0.6 0 0 1 -0.6,-0.6 V 3.21 a 0.3,0.3 0 0 1 0.3,-0.3 z"
-           inkscape:connector-curvature="0"
-           style="fill:#1490df" />
-        <path
-           id="path2931"
-           transform="rotate(45.08,14.930414,11.202239)"
-           d="m 14.15,7.28 h 0.94 a 0.6,0.6 0 0 1 0.6,0.6 v 6.94 a 0.3,0.3 0 0 1 -0.3,0.3 h -0.94 a 0.3,0.3 0 0 1 -0.3,-0.3 z"
-           inkscape:connector-curvature="0"
-           style="fill:#50e6ff" />
-        <path
-           id="path2933"
-           transform="rotate(135.08,14.975369,6.7703496)"
-           d="m 14.81,2.91 h 0.94 v 7.43 a 0.3,0.3 0 0 1 -0.3,0.3 H 14.5 a 0.3,0.3 0 0 1 -0.3,-0.3 V 3.51 a 0.6,0.6 0 0 1 0.6,-0.6 z"
-           inkscape:connector-curvature="0"
-           style="fill:#1490df" />
-      </g>
+      <path
+         id="path1085"
+         d="m -102.59389,-10.17814 v -13.948163 a 1.5728779,1.5728779 0 0 0 0.80127,-1.36514 1.6025549,1.6025549 0 0 0 -1.60255,-1.602555 1.6025549,1.6025549 0 0 0 -0.7716,2.967695 v 13.948163 a 1.6322318,1.6322318 0 0 0 -0.80128,1.3948161 1.6025549,1.6025549 0 1 0 3.17543,0 1.6322318,1.6322318 0 0 0 -0.80127,-1.3948161 z"
+         inkscape:connector-curvature="0"
+         style="fill:#1490df;fill-opacity:1;stroke-width:2.96769428" />
+      <circle
+         id="circle1089"
+         r="1.632232"
+         cy="-25.461765"
+         cx="-98.320419"
+         style="fill:#5e9624;fill-opacity:1;stroke-width:2.96769428" />
+      <circle
+         id="circle1091"
+         r="1.632232"
+         cy="-25.461765"
+         cx="-103.51389"
+         style="fill:#5e9624;fill-opacity:1;stroke-width:2.96769428" />
+      <circle
+         id="circle1093"
+         r="1.632232"
+         cy="-25.461765"
+         cx="-108.67766"
+         style="fill:#5e9624;fill-opacity:1;stroke-width:2.96769428" />
+      <path
+         id="path1095"
+         d="m -108.52927,-18.012853 0.94965,-0.949662 a 0.44515414,0.44515414 0 0 0 0,-0.593539 l -7.38955,-7.359882 -0.94966,0.949663 a 0.83095438,0.83095438 0 0 0 0,1.187077 l 6.88505,6.766343 a 0.44515414,0.44515414 0 0 0 0.50451,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#50e6ff;fill-opacity:1;stroke-width:2.96769428" />
+      <path
+         id="path1097"
+         d="m -107.63897,-31.961017 -0.8903,-0.890307 a 0.44515414,0.44515414 0 0 0 -0.59355,0 l -6.79601,6.736665 a 0.83095438,0.83095438 0 0 0 0,1.187078 l 0.91998,0.979339 7.35988,-7.419235 a 0.38580025,0.38580025 0 0 0 0,-0.59354 z"
+         inkscape:connector-curvature="0"
+         style="fill:#1490df;fill-opacity:1;stroke-width:2.96769428" />
+      <path
+         id="path1099"
+         d="m -98.676533,-18.012853 -0.949658,-0.979339 a 0.38580025,0.38580025 0 0 1 0,-0.59354 l 7.508261,-7.330204 0.919982,0.949663 a 0.83095438,0.83095438 0 0 1 0,1.187077 l -6.885051,6.766343 a 0.44515414,0.44515414 0 0 1 -0.593534,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#50e6ff;fill-opacity:1;stroke-width:2.96769428" />
+      <path
+         id="path1101"
+         d="m -99.477811,-31.961017 0.949659,-0.890307 a 0.44515414,0.44515414 0 0 1 0.593545,0 l 6.736659,6.766343 a 0.83095438,0.83095438 0 0 1 0,1.187077 l -0.919982,0.949662 -7.359881,-7.419235 a 0.44515414,0.44515414 0 0 1 0,-0.59354 z"
+         inkscape:connector-curvature="0"
+         style="fill:#1490df;fill-opacity:1;stroke-width:2.96769428" />
     </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.59543037px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32233229"
-       x="44.688725"
-       y="-16.351299"
-       id="text991"><tspan
+       x="-64.384766"
+       y="-31.682085"
+       id="text1278"><tspan
          sodipodi:role="line"
-         id="tspan1177"
-         x="44.688725"
-         y="-16.351299">• 10.0.0.0/8</tspan><tspan
+         x="-64.384766"
+         y="-31.682085"
+         id="tspan1240"><tspan
+           x="-64.384766"
+           y="-31.682085"
+           id="tspan1238">VNet <tspan
+   style="-inkscape-font-specification:'JetBrains Mono Bold';font-family:'JetBrains Mono';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan1280">Service Endpoint</tspan> provides secure and </tspan></tspan><tspan
          sodipodi:role="line"
-         id="tspan1179"
-         x="44.688725"
-         y="-5.6070118">• 172.16.0.0/12</tspan><tspan
+         x="-64.384766"
+         y="-20.937798"
+         id="tspan1244"><tspan
+           x="-64.384766"
+           id="tspan1242">direct connectivity to  Azure services over </tspan></tspan><tspan
          sodipodi:role="line"
-         id="tspan1181"
-         x="44.688725"
-         y="5.1372762">• 192.168.0.0/16</tspan><tspan
+         x="-64.384766"
+         y="-10.193509"
+         id="tspan1248"><tspan
+           x="-64.384766"
+           id="tspan1246">an optimized route over  the Azure backbone </tspan></tspan><tspan
          sodipodi:role="line"
-         id="tspan1183"
-         x="44.688725"
-         y="15.881564" /></text>
-    <rect
-       style="opacity:0.52999998;fill:#4f9aea;fill-opacity:1;stroke:none;stroke-width:1.13111091;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1185"
-       width="63.499992"
-       height="86.441231"
-       x="-41.098232"
-       y="16.438856" />
-    <path
-       style="opacity:1;fill:#13569d;fill-opacity:1;stroke:none;stroke-width:0.50273961;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -35.428557,22.404381 V 43.193292 H 16.732082 V 22.404381 Z m 0,26.860892 V 70.05367 H 16.732082 V 49.265273 Z m 0,26.860375 V 96.914561 H 16.732082 V 76.125648 Z"
-       id="rect1187"
-       inkscape:connector-curvature="0" />
-    <text
-       id="text1204"
-       y="-6.346458"
-       x="-42.399342"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.59543037px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32233229"
-       xml:space="preserve"><tspan
-         id="tspan1202"
+         x="-64.384766"
+         y="0.55077887"
+         id="tspan1252"><tspan
+           x="-64.384766"
+           id="tspan1250">network. Endpoints allow  you to secure your </tspan></tspan><tspan
          sodipodi:role="line"
-         x="-42.399342"
-         y="-6.346458">Address Space</tspan></text>
-    <path
-       style="fill:#4f9bea;fill-opacity:0.5294117;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -41.098234,16.438854 -9.7298621,-1.6716845 22.401757,16.438854 Z"
-       id="path1220"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.59543037px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32233229"
-       x="-116.86065"
-       y="35.608902"
-       id="text1224"><tspan
-         y="35.608902"
-         x="-116.86065"
+         x="-64.384766"
+         y="11.295067"
+         id="tspan1256"><tspan
+           x="-64.384766"
+           id="tspan1254">critical Azure service  resources to only </tspan></tspan><tspan
          sodipodi:role="line"
-         id="tspan1222">Subnet #1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.59543037px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32233229"
-       x="-116.86065"
-       y="90.226463"
-       id="text1232"><tspan
-         y="90.226463"
-         x="-116.86065"
+         x="-64.384766"
+         y="22.039354"
+         id="tspan1260"><tspan
+           x="-64.384766"
+           id="tspan1258">your virtual networks.  Service Endpoints </tspan></tspan><tspan
          sodipodi:role="line"
-         id="tspan1230">Subnet #x</tspan></text>
-    <path
-       style="fill:none;stroke:#13569d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -67.827491,32.984617 h 36.285714"
-       id="path1234"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path1236"
-       d="m -67.827491,86.468248 h 36.285714"
-       style="fill:none;stroke:#13569d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       id="text1240"
-       y="51.101883"
-       x="48.417282"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.59543037px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#13569d;fill-opacity:1;stroke:none;stroke-width:0.32233229"
-       xml:space="preserve"
-       transform="rotate(90)"><tspan
-         id="tspan1238"
+         x="-64.384766"
+         y="32.783642"
+         id="tspan1264"><tspan
+           x="-64.384766"
+           id="tspan1262">enables private IP  addresses in the VNet to </tspan></tspan><tspan
          sodipodi:role="line"
-         x="48.417282"
-         y="51.101883"
-         style="font-size:14.11111069px">...</tspan></text>
-    <text
-       id="text1252"
-       y="5.9492965"
-       x="24.278011"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.59543037px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32233229"
-       xml:space="preserve"><tspan
-         y="5.9492965"
-         x="24.278011"
-         id="tspan1250"
+         x="-64.384766"
+         y="43.527931"
+         id="tspan1268"><tspan
+           x="-64.384766"
+           id="tspan1266">reach the endpoint  of an Azure service </tspan></tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:42.33333206px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Light'">{</tspan></text>
+         x="-64.384766"
+         y="54.272217"
+         id="tspan1272"><tspan
+           x="-64.384766"
+           id="tspan1270">without needing a  public IP address on the </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-64.384766"
+         y="65.01651"
+         id="tspan1276"><tspan
+           x="-64.384766"
+           id="tspan1274">VNet.</tspan></tspan></text>
   </g>
 </svg>

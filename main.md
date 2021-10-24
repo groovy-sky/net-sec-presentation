@@ -81,16 +81,39 @@ Presented by Jurijs Fadejevs
 
 ## VNet: NSG
 
+![](img/nsg_definition.svg)
+
 ---
 
+
+## VM in VNet
+
+![](img/vm_in_vnet.svg)
+
+---
+
+## VM access using Azure Bastion
+
+![](img/vm_bastion_access.svg)
+
+
+---
 
 ## VNet: Peerings
 ![](img/vnet_peering.svg)
 
 ---
 
+## VNet: On-Prem access
+
+![](img/vm_on_prem_access.svg)
+
+---
 
 ## VNet: Service endpoints
+
+![](img/service_endpoint.svg)
+
 
 ---
 
@@ -99,11 +122,7 @@ Presented by Jurijs Fadejevs
 
 ---
 
-## On-Prem access
 
-![](img/vm_on_prem_access.svg)
-
----
 
 ## Summary
 ![](img/summary.svg)
