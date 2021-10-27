@@ -341,7 +341,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="685.15365"
+     inkscape:cx="1143.4278"
      inkscape:cy="400.23639"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -360,7 +360,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -469,7 +469,7 @@
            x="-64.384766"
            y="-31.682085"
            id="tspan1238">VNet <tspan
-   style="-inkscape-font-specification:'JetBrains Mono Bold';font-family:'JetBrains Mono';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
    id="tspan1280">Service Endpoint</tspan> provides secure and </tspan></tspan><tspan
          sodipodi:role="line"
          x="-64.384766"
@@ -524,6 +524,23 @@
          y="65.01651"
          id="tspan1276"><tspan
            x="-64.384766"
-           id="tspan1274">VNet.</tspan></tspan></text>
+           id="tspan1274">VNet.</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-64.384766"
+         y="75.760796"
+         id="tspan905"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';fill:#ff0000">The Service Endpoints must be enabled both on </tspan><tspan
+         sodipodi:role="line"
+         x="-64.384766"
+         y="86.505081"
+         id="tspan907"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';fill:#ff0000">the networking side and for the Azure service </tspan><tspan
+         sodipodi:role="line"
+         x="-64.384766"
+         y="97.249374"
+         id="tspan909"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Medium';fill:#808000"><tspan
+           style="fill:#ff0000"
+           id="tspan911">that they're being enabled with.</tspan></tspan></text>
   </g>
 </svg>

@@ -109,9 +109,14 @@ Presented by Jurijs Fadejevs
 
 ---
 
-## VM's private access
+## VM's private access from On-Prem
 
 ![](img/vm_on_prem_access.svg)
+
+---
+## PaaS in Azure
+
+![](img/paas_acc_rest.svg)
 
 ---
 
@@ -151,6 +156,10 @@ Presented by Jurijs Fadejevs
 
 ---
 
+# Questions?
+
+---
+
 <style scoped>
 section {
   font-size: 30px;
@@ -165,6 +174,8 @@ a {
 **Running self-hosted DNS forwarder using CoreDNS:**
 [https://github.com/groovy-sky/azure/tree/master/docker-coredns-00](https://github.com/groovy-sky/azure/tree/master/docker-coredns-00)
 
+**Using a private endpoint for a storage account:**
+[https://github.com/groovy-sky/azure/tree/master/docker-coredns-01#introduction](https://github.com/groovy-sky/azure/tree/master/docker-coredns-01#introduction)
 
 **More about Azure:**
 [https://groovy-sky.github.io/azure/](https://groovy-sky.github.io/azure/)
